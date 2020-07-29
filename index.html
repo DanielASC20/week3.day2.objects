@@ -10,7 +10,7 @@
 </head>
 
 <body>
-
+    <div class = "gridDiv"></div>
     <div class="main_container">
         <nav>
             <svg id="logo" viewBox="0 27 64 9.4">
@@ -38,6 +38,46 @@
         <header>
             <h1>Overwatch Heroes</h1>
             <p>Click hero to learn more!</p>
+            <div>
+                <label for="inputName">Name: </label>
+                <input type="text" id='inputName' name='customForm' value=''>
+            </div>
+            <div>
+                <label for='type'>Type: <br></label>
+                <input type="radio" id="tank" name='type' value='tank'>
+                <label for="tank">Tank</label>
+            </div>
+            <div>
+                <input type="radio" id="damage" name='type' value='damage'>
+                <label for="damage">Damage</label>
+            </div>
+            <div>
+                <input type="radio" id="support" name='type' value='support'>
+                <label for="support">Support</label>
+            </div>
+            <div>
+                <label for="difficulty">Difficulty:<br></label>
+                <input type='radio' id='1' name='difficulty' value='1'>
+                <label for='1'>1</label>
+            </div>
+            <div>
+                <input type="radio" id='2' name='difficulty' value="2">
+                <label for='2'>2</label>
+            </div>
+            <div>
+                <input type='radio' id='3' name='difficulty' value='3'>
+                <label for='3'>3</label>
+            </div>
+            <div>
+                <label for='inputSaying'>Saying: </label>
+                <input type='text' id='inputSaying' name = 'inputSaying' value=''>
+            </div>
+            <div id='submitButton'>
+                <input type='submit' value='Submit'>
+            </div>
+
+
+            
         </header>
 
         <div class="main_content">

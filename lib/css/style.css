@@ -79,4 +79,23 @@ header{
 
 /* START ADDING STUFF HERE! */
 
+#gridDiv{
+    display: grid;
+    grid-template-columns: repeat(6, auto);
+    grid-gap: 10px;
+}
+
+.hero_container{
+    display: flex;
+    background-color: #f7931e;
+    border: solid, #00aeff, 1px;
+    hover
+}
+
+.hero_text_container{
+display: none;
+}
+
+
+
 
