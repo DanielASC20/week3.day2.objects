@@ -89,13 +89,31 @@ header{
     display: flex;
     background-color: #f7931e;
     border: solid, #00aeff, 1px;
-    hover
+    cursor: pointer;
+}
+
+#highlight{
+    cursor: default;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    height: 634px;
+    width: 566px;
+    overflow-y: scroll;
+    padding: 16px;
+}
+#highlight.hero_text_container{
+    display: grid;
+}
+
+img.hero_text_container{
+    align-self: flex-start;
 }
 
 .hero_text_container{
-display: none;
+    display: none;
 }
-
 
 
 
